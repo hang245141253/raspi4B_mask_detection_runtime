@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../Paddle-Lite/include/paddle_api.h
+memory
+-
+string
+-
+vector
+-
+paddle_place.h
+../../Paddle-Lite/include/paddle_place.h
+
+../../Paddle-Lite/include/paddle_place.h
+set
+-
+string
+-
+
+/home/ubuntu/mask_deteciton/code/mask_detection.cc
+iostream
+-
+string
+-
+vector
+-
+opencv2/highgui.hpp
+-
+opencv2/core.hpp
+/home/ubuntu/mask_deteciton/code/opencv2/core.hpp
+opencv2/imgcodecs.hpp
+/home/ubuntu/mask_deteciton/code/opencv2/imgcodecs.hpp
+opencv2/imgproc.hpp
+/home/ubuntu/mask_deteciton/code/opencv2/imgproc.hpp
+paddle_api.h
+/home/ubuntu/mask_deteciton/code/paddle_api.h
+
