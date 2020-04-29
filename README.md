@@ -1,0 +1,3 @@
+# raspi4B_mask_detection_runtime
+基于树莓派4B与Paddle-Lite实现的实时口罩识别
+test
