@@ -12,9 +12,3 @@ mkdir build
 cd build
 cmake -DPADDLE_LITE_DIR=${PADDLE_LITE_DIR} -DTARGET_ARCH_ABI=${TARGET_ARCH_ABI} ..
 make
-
-
-#run
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${PADDLE_LITE_DIR}/libs/${TARGET_ARCH_ABI} ./mask_detection ../models/face_detection ../models/mask_classification ../images/test1.jpg
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${PADDLE_LITE_DIR}/libs/${TARGET_ARCH_ABI} ./mask_detection ../models/face_detection ../models/mask_classification ../images/test2.jpg
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:${PADDLE_LITE_DIR}/libs/${TARGET_ARCH_ABI} ./mask_detection ../models/face_detection ../models/mask_classification

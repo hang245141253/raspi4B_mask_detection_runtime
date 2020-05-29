@@ -29,14 +29,16 @@ string
 -
 vector
 -
+opencv2/core.hpp
+-
+opencv2/opencv.hpp
+-
 opencv2/highgui.hpp
 -
-opencv2/core.hpp
-/home/ubuntu/mask_deteciton/code/opencv2/core.hpp
 opencv2/imgcodecs.hpp
-/home/ubuntu/mask_deteciton/code/opencv2/imgcodecs.hpp
+-
 opencv2/imgproc.hpp
-/home/ubuntu/mask_deteciton/code/opencv2/imgproc.hpp
+-
 paddle_api.h
 /home/ubuntu/mask_deteciton/code/paddle_api.h
 

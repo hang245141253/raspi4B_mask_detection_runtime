@@ -1,5 +1,5 @@
 The target system is: Linux -  - aarch64
-The host system is: Linux - 5.3.0-1022-raspi2 - aarch64
+The host system is: Linux - 5.3.0-1026-raspi2 - aarch64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/aarch64-linux-gnu-gcc 
 Build flags: 
@@ -29,28 +29,28 @@ The CXX compiler identification is GNU, found in "/home/ubuntu/mask_deteciton/co
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53c70/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53c70.dir/build.make CMakeFiles/cmTC_53c70.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c3b8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3b8f.dir/build.make CMakeFiles/cmTC_c3b8f.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_53c70.dir/testCCompiler.c.o
-/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_53c70.dir/testCCompiler.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_53c70
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c70.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_53c70.dir/testCCompiler.c.o  -o cmTC_53c70 
+Building C object CMakeFiles/cmTC_c3b8f.dir/testCCompiler.c.o
+/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_c3b8f.dir/testCCompiler.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c3b8f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3b8f.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_c3b8f.dir/testCCompiler.c.o  -o cmTC_c3b8f 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_263d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_263d5.dir/build.make CMakeFiles/cmTC_263d5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de94f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de94f.dir/build.make CMakeFiles/cmTC_de94f.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o
-/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_263d5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263d5.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o  -o cmTC_263d5 
+Building C object CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o
+/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_de94f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de94f.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o  -o cmTC_de94f 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -60,9 +60,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263d5' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Hvo2L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_263d5 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263d5' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de94f' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ScOux.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_de94f /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de94f' '-mlittle-endian' '-mabi=lp64'
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -70,14 +70,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_263d5/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_263d5.dir/build.make CMakeFiles/cmTC_263d5.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_de94f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_de94f.dir/build.make CMakeFiles/cmTC_de94f.dir/build]
   ignore line: [make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_263d5]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263d5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/aarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o  -o cmTC_263d5 ]
+  ignore line: [Building C object CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_de94f]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de94f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-linux-gnu-gcc     -v CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o  -o cmTC_de94f ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -87,13 +87,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_263d5' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1Hvo2L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_263d5 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_de94f' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1ScOux.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_de94f /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc1Hvo2L.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1ScOux.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -113,7 +113,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_263d5] ==> ignore
+    arg [cmTC_de94f] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_263d5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_de94f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,14 +157,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_16879/fast"
-/usr/bin/make -f CMakeFiles/cmTC_16879.dir/build.make CMakeFiles/cmTC_16879.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_67068/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67068.dir/build.make CMakeFiles/cmTC_67068.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_16879.dir/feature_tests.c.o
-/usr/bin/aarch64-linux-gnu-gcc   -std=c11 -o CMakeFiles/cmTC_16879.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_16879
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16879.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_16879.dir/feature_tests.c.o  -o cmTC_16879 
+Building C object CMakeFiles/cmTC_67068.dir/feature_tests.c.o
+/usr/bin/aarch64-linux-gnu-gcc   -std=c11 -o CMakeFiles/cmTC_67068.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_67068
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67068.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_67068.dir/feature_tests.c.o  -o cmTC_67068 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -177,14 +177,14 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_971cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_971cd.dir/build.make CMakeFiles/cmTC_971cd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_91c8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91c8e.dir/build.make CMakeFiles/cmTC_91c8e.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_971cd.dir/feature_tests.c.o
-/usr/bin/aarch64-linux-gnu-gcc   -std=c99 -o CMakeFiles/cmTC_971cd.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_971cd
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971cd.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_971cd.dir/feature_tests.c.o  -o cmTC_971cd 
+Building C object CMakeFiles/cmTC_91c8e.dir/feature_tests.c.o
+/usr/bin/aarch64-linux-gnu-gcc   -std=c99 -o CMakeFiles/cmTC_91c8e.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91c8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c8e.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_91c8e.dir/feature_tests.c.o  -o cmTC_91c8e 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -197,14 +197,14 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bbb60/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bbb60.dir/build.make CMakeFiles/cmTC_bbb60.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_927f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_927f4.dir/build.make CMakeFiles/cmTC_927f4.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_bbb60.dir/feature_tests.c.o
-/usr/bin/aarch64-linux-gnu-gcc   -std=c90 -o CMakeFiles/cmTC_bbb60.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bbb60
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbb60.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_bbb60.dir/feature_tests.c.o  -o cmTC_bbb60 
+Building C object CMakeFiles/cmTC_927f4.dir/feature_tests.c.o
+/usr/bin/aarch64-linux-gnu-gcc   -std=c90 -o CMakeFiles/cmTC_927f4.dir/feature_tests.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_927f4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_927f4.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc      CMakeFiles/cmTC_927f4.dir/feature_tests.c.o  -o cmTC_927f4 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -215,28 +215,28 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f327c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f327c.dir/build.make CMakeFiles/cmTC_f327c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_dcceb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dcceb.dir/build.make CMakeFiles/cmTC_dcceb.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_f327c.dir/testCXXCompiler.cxx.o
-/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_f327c.dir/testCXXCompiler.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f327c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f327c.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_f327c.dir/testCXXCompiler.cxx.o  -o cmTC_f327c 
+Building CXX object CMakeFiles/cmTC_dcceb.dir/testCXXCompiler.cxx.o
+/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_dcceb.dir/testCXXCompiler.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_dcceb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcceb.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_dcceb.dir/testCXXCompiler.cxx.o  -o cmTC_dcceb 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d441b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d441b.dir/build.make CMakeFiles/cmTC_d441b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_68517/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68517.dir/build.make CMakeFiles/cmTC_68517.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d441b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d441b.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++      -v CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d441b 
+Building CXX object CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_68517
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68517.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++      -v CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68517 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -246,9 +246,9 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d441b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb21j7a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_d441b /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d441b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68517' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc17bbWU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_68517 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68517' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -256,14 +256,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d441b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d441b.dir/build.make CMakeFiles/cmTC_d441b.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68517/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68517.dir/build.make CMakeFiles/cmTC_68517.dir/build]
   ignore line: [make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d441b]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d441b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/aarch64-linux-gnu-g++      -v CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d441b ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_68517]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68517.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-linux-gnu-g++      -v CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_68517 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d441b' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb21j7a.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_d441b /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68517' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc17bbWU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_68517 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccb21j7a.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc17bbWU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -299,7 +299,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d441b] ==> ignore
+    arg [cmTC_68517] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -311,7 +311,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_d441b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_68517.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -339,14 +339,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5672c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5672c.dir/build.make CMakeFiles/cmTC_5672c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3a3a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a3a9.dir/build.make CMakeFiles/cmTC_3a3a9.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_5672c.dir/feature_tests.cxx.o
-/usr/bin/aarch64-linux-gnu-g++    -std=c++1z -o CMakeFiles/cmTC_5672c.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5672c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5672c.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_5672c.dir/feature_tests.cxx.o  -o cmTC_5672c 
+Building CXX object CMakeFiles/cmTC_3a3a9.dir/feature_tests.cxx.o
+/usr/bin/aarch64-linux-gnu-g++    -std=c++1z -o CMakeFiles/cmTC_3a3a9.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3a3a9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a3a9.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_3a3a9.dir/feature_tests.cxx.o  -o cmTC_3a3a9 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -412,14 +412,14 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9df49/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9df49.dir/build.make CMakeFiles/cmTC_9df49.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8a95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8a95.dir/build.make CMakeFiles/cmTC_e8a95.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_9df49.dir/feature_tests.cxx.o
-/usr/bin/aarch64-linux-gnu-g++    -std=c++14 -o CMakeFiles/cmTC_9df49.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9df49
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9df49.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_9df49.dir/feature_tests.cxx.o  -o cmTC_9df49 
+Building CXX object CMakeFiles/cmTC_e8a95.dir/feature_tests.cxx.o
+/usr/bin/aarch64-linux-gnu-g++    -std=c++14 -o CMakeFiles/cmTC_e8a95.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e8a95
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a95.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_e8a95.dir/feature_tests.cxx.o  -o cmTC_e8a95 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -485,14 +485,14 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_596f0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_596f0.dir/build.make CMakeFiles/cmTC_596f0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1b196/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b196.dir/build.make CMakeFiles/cmTC_1b196.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_596f0.dir/feature_tests.cxx.o
-/usr/bin/aarch64-linux-gnu-g++    -std=c++11 -o CMakeFiles/cmTC_596f0.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_596f0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596f0.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_596f0.dir/feature_tests.cxx.o  -o cmTC_596f0 
+Building CXX object CMakeFiles/cmTC_1b196.dir/feature_tests.cxx.o
+/usr/bin/aarch64-linux-gnu-g++    -std=c++11 -o CMakeFiles/cmTC_1b196.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1b196
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b196.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_1b196.dir/feature_tests.cxx.o  -o cmTC_1b196 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -558,14 +558,14 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd37c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cd37c.dir/build.make CMakeFiles/cmTC_cd37c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e57f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e57f4.dir/build.make CMakeFiles/cmTC_e57f4.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_cd37c.dir/feature_tests.cxx.o
-/usr/bin/aarch64-linux-gnu-g++    -std=c++98 -o CMakeFiles/cmTC_cd37c.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cd37c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd37c.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_cd37c.dir/feature_tests.cxx.o  -o cmTC_cd37c 
+Building CXX object CMakeFiles/cmTC_e57f4.dir/feature_tests.cxx.o
+/usr/bin/aarch64-linux-gnu-g++    -std=c++98 -o CMakeFiles/cmTC_e57f4.dir/feature_tests.cxx.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e57f4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e57f4.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++       CMakeFiles/cmTC_e57f4.dir/feature_tests.cxx.o  -o cmTC_e57f4 
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -629,19 +629,19 @@ make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeT
 Detecting C OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3ae25/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ae25.dir/build.make CMakeFiles/cmTC_3ae25.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1b2cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b2cd.dir/build.make CMakeFiles/cmTC_1b2cd.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o
-/usr/bin/aarch64-linux-gnu-gcc   -march=armv8-a  -fopenmp -v   -o CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Building C object CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o
+/usr/bin/aarch64-linux-gnu-gcc   -march=armv8-a  -fopenmp -v   -o CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6WfFgG.s
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTqVBnk.s
 GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -661,15 +661,15 @@ GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o /tmp/cc6WfFgG.s
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o /tmp/ccTqVBnk.s
 GNU汇编版本 2.30 (aarch64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking C executable cmTC_3ae25
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae25.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-gcc -march=armv8-a  -fopenmp -v    CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o  -o cmTC_3ae25 -v 
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking C executable cmTC_1b2cd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2cd.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-gcc -march=armv8-a  -fopenmp -v    CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o  -o cmTC_1b2cd -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -680,9 +680,9 @@ gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_3ae25' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4mcxKJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3ae25 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_3ae25' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_1b2cd' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT9bRIs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_1b2cd /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_1b2cd' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -690,19 +690,19 @@ Parsed C OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3ae25/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3ae25.dir/build.make CMakeFiles/cmTC_3ae25.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1b2cd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1b2cd.dir/build.make CMakeFiles/cmTC_1b2cd.dir/build]
   ignore line: [make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o]
-  ignore line: [/usr/bin/aarch64-linux-gnu-gcc   -march=armv8-a  -fopenmp -v   -o CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Building C object CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/aarch64-linux-gnu-gcc   -march=armv8-a  -fopenmp -v   -o CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o   -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6WfFgG.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTqVBnk.s]
   ignore line: [GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -722,15 +722,15 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o /tmp/cc6WfFgG.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o /tmp/ccTqVBnk.s]
   ignore line: [GNU汇编版本 2.30 (aarch64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking C executable cmTC_3ae25]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae25.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/aarch64-linux-gnu-gcc -march=armv8-a  -fopenmp -v    CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o  -o cmTC_3ae25 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking C executable cmTC_1b2cd]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b2cd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-linux-gnu-gcc -march=armv8-a  -fopenmp -v    CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o  -o cmTC_1b2cd -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -741,13 +741,13 @@ Parsed C OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_3ae25' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4mcxKJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_3ae25 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-fopenmp' '-v' '-o' 'cmTC_1b2cd' '-v' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccT9bRIs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_1b2cd /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4mcxKJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccT9bRIs.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -768,7 +768,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3ae25] ==> ignore
+    arg [cmTC_1b2cd] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -780,7 +780,7 @@ Parsed C OpenMP implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_3ae25.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_1b2cd.dir/OpenMPTryFlag.c.o] ==> ignore
     arg [-lgomp] ==> lib [gomp]
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
@@ -812,19 +812,19 @@ Parsed C OpenMP implicit link information from above output:
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
 Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dd7a7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dd7a7.dir/build.make CMakeFiles/cmTC_dd7a7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_044c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_044c3.dir/build.make CMakeFiles/cmTC_044c3.dir/build
 make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o
-/usr/bin/aarch64-linux-gnu-g++    -march=armv8-a  -std=c++11 -fopenmp -v   -o CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Building CXX object CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o
+/usr/bin/aarch64-linux-gnu-g++    -march=armv8-a  -std=c++11 -fopenmp -v   -o CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++
 Target: aarch64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
 Thread model: posix
 gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccNGx7G5.s
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccOSbacK.s
 GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -848,15 +848,15 @@ GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 267235b6617dadf512d9def64c54895c
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o /tmp/ccNGx7G5.s
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o /tmp/ccOSbacK.s
 GNU汇编版本 2.30 (aarch64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.30
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
-Linking CXX executable cmTC_dd7a7
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd7a7.dir/link.txt --verbose=1
-/usr/bin/aarch64-linux-gnu-g++  -march=armv8-a  -std=c++11 -fopenmp -v    CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o  -o cmTC_dd7a7 -v 
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+Linking CXX executable cmTC_044c3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044c3.dir/link.txt --verbose=1
+/usr/bin/aarch64-linux-gnu-g++  -march=armv8-a  -std=c++11 -fopenmp -v    CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o  -o cmTC_044c3 -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -867,9 +867,9 @@ gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04)
 COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_dd7a7' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
- /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXyLm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_dd7a7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_dd7a7' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_044c3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6UZBAS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_044c3 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_044c3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
 make[1]: 离开目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”
 
 
@@ -877,19 +877,19 @@ Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dd7a7/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dd7a7.dir/build.make CMakeFiles/cmTC_dd7a7.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_044c3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_044c3.dir/build.make CMakeFiles/cmTC_044c3.dir/build]
   ignore line: [make[1]: 进入目录“/home/ubuntu/mask_deteciton/code/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/aarch64-linux-gnu-g++    -march=armv8-a  -std=c++11 -fopenmp -v   -o CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/aarch64-linux-gnu-g++    -march=armv8-a  -std=c++11 -fopenmp -v   -o CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -c /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++]
   ignore line: [Target: aarch64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccNGx7G5.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/ubuntu/mask_deteciton/code/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -std=c++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccOSbacK.s]
   ignore line: [GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
   ignore line: []
@@ -913,15 +913,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o /tmp/ccNGx7G5.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [ as -v -EL -march=armv8-a -mabi=lp64 -o CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o /tmp/ccOSbacK.s]
   ignore line: [GNU汇编版本 2.30 (aarch64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.30]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_dd7a7]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd7a7.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/aarch64-linux-gnu-g++  -march=armv8-a  -std=c++11 -fopenmp -v    CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o  -o cmTC_dd7a7 -v ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_044c3]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_044c3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/aarch64-linux-gnu-g++  -march=armv8-a  -std=c++11 -fopenmp -v    CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o  -o cmTC_044c3 -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/aarch64-linux-gnu-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -932,13 +932,13 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_dd7a7' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
-  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpXyLm9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_dd7a7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv8-a' '-std=c++11' '-fopenmp' '-v' '-o' 'cmTC_044c3' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6UZBAS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_044c3 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccpXyLm9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6UZBAS.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -959,7 +959,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_dd7a7] ==> ignore
+    arg [cmTC_044c3] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -971,7 +971,7 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_dd7a7.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_044c3.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]

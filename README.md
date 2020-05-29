@@ -1,6 +1,13 @@
 # raspi4B_mask_detection_runtime
 基于树莓派4B与Paddle-Lite实现的实时口罩识别
 
+## v2.6更新
+使用了Paddle-Lite v2.6的预测库与PaddleHub上最新的模型
+
+鲁棒性大大提升。
+
+
+
 ## 环境要求
 
 * ARMLinux
