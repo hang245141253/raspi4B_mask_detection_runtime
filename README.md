@@ -32,7 +32,7 @@ $ git clone https://github.com/hang245141253/raspi4B_mask_detection_runtime
 
 code文件夹下为项目源码
 
-Paddle-Lite文件夹为Paddle-Lite的预测库，包含32位于64位的预测库。版本是Paddle-LiteV2.3.0。可自行编译进行预测库替换。
+Paddle-Lite文件夹为Paddle-Lite的预测库，包含32位于64位的预测库。版本是Paddle-LiteV2.6.0。可自行编译进行预测库替换。
 
 ## 使用
 
