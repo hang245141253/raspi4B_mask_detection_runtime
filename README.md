@@ -34,6 +34,10 @@ code文件夹下为项目源码
 
 Paddle-Lite文件夹为Paddle-Lite的预测库，包含32位于64位的预测库。版本是Paddle-LiteV2.6.0。可自行编译进行预测库替换。
 
+  项目默认环境是armlinux 64位。如果您的系统是armlinux32位的，需要自行在code文件夹下的cmake.sh与 run.sh中将TARGET_ARCH_ABI=armv8 注释掉，并取消#TARGET_ARCH_ABI=armv7hf的注释即可。
+  
+  如果你使用的树苺派官方系统，即使CPU架构是armv8的，也要使用TARGET_ARCH_ABI=armv7hf。因为树苺派官方系统是32位的。
+
 ## 使用
 
 进入code文件夹，提供两个脚本cmake.sh与 run.sh
@@ -52,4 +56,4 @@ Paddle-Lite文件夹为Paddle-Lite的预测库，包含32位于64位的预测库
 
   程序会运行3次，按键盘上的“0”即可停止运行程序（注意按“0"之前需要点击一下跳出来的图片结果预测框）
   
-  项目默认环境是armlinux 64位。如果您的系统是armlinux32位的，需要自行在cmake.sh与 run.sh中将TARGET_ARCH_ABI=armv8 注释掉，并取消#TARGET_ARCH_ABI=armv7hf的注释即可。
+
