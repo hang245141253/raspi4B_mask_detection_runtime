@@ -1,3 +1,0 @@
-/home/ubuntu/mask_deteciton/code/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/mask_deteciton/code/build/CMakeFiles/mask_detection.dir
-/home/ubuntu/mask_deteciton/code/build/CMakeFiles/edit_cache.dir
