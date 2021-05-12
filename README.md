@@ -1,8 +1,8 @@
 # raspi4B_mask_detection_runtime
 基于树莓派4B与Paddle-Lite实现的实时口罩识别
 
-## v2.6更新
-使用了Paddle-Lite v2.6的预测库与PaddleHub上最新的模型
+## v2.8更新
+使用了Paddle-Lite v2.8的预测库与PaddleHub上最新的模型
 
 鲁棒性大大提升。
 
@@ -49,7 +49,7 @@ Paddle-Lite文件夹为Paddle-Lite的预测库，包含32位于64位的预测库
 以下是脚本的部分代码：
 
     ```
-    ./mask_detection ../models/face_detection ../models/mask_classification ../images/test1.jpg
+     ./mask_detection ../models/face_detection ../models/mask_classification ../images/test1.jpg
      ./mask_detection ../models/face_detection ../models/mask_classification ../images/test2.jpg
      ./mask_detection ../models/face_detection ../models/mask_classification
     ```
