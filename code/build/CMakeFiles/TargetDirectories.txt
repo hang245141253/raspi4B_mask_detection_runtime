@@ -1,0 +1,3 @@
+/home/ubuntu/raspi4B_mask_detection_runtime/code/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/raspi4B_mask_detection_runtime/code/build/CMakeFiles/mask_detection.dir
+/home/ubuntu/raspi4B_mask_detection_runtime/code/build/CMakeFiles/edit_cache.dir
